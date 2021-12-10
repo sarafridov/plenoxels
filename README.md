@@ -7,7 +7,7 @@ Website and video: <https://alexyu.net/plenoxels>
 
 arXiv: <https://arxiv.org/abs/2112.05131>
 
-**Note:** This JAX implementation is intended to be high-level and user-serviceable, but is much slower than the CUDA implementation <https://github.com/sxyu/svox2>, and there is not perfect feature alignment between the two versions (this JAX version can likely be sped up significantly, and we may push performance improvements and extra features in the future). Currently, this version only supports bounded scenes and trains using SGD without regularization.
+**Note:** This JAX implementation is intended to be high-level and user-serviceable, but is much slower (roughly 1 hour per epoch) than the CUDA implementation <https://github.com/sxyu/svox2> (roughly 1 minute per epoch), and there is not perfect feature alignment between the two versions. This JAX version can likely be sped up significantly, and we may push performance improvements and extra features in the future. Currently, this version only supports bounded scenes and trains using SGD without regularization.
 
 
 
