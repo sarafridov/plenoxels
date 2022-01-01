@@ -89,7 +89,7 @@ flags.add_argument(
 flags.add_argument(
     '--num_epochs',
     type=int,
-    default=100,
+    default=1,
     help='Epochs to train for.'
 )
 flags.add_argument(
@@ -119,14 +119,14 @@ flags.add_argument(
 flags.add_argument(
     '--physical_batch_size',
     type=int,
-    default=None,
-    help='Number of rays per batch, to avoid OOM. Default is one entire training view at a time.'
+    default=4000,
+    help='Number of rays per batch, to avoid OOM.'
     )
 flags.add_argument(
     '--logical_batch_size',
     type=int,
-    default=None,
-    help='Number of rays per optimization batch. Must be a multiple of physical_batch_size. Default is one entire training view at a time.'
+    default=4000,
+    help='Number of rays per optimization batch. Must be a multiple of physical_batch_size.'
     )
 flags.add_argument(
     '--jitter',
