@@ -11,17 +11,17 @@ arXiv: <https://arxiv.org/abs/2112.05131>
 
 
 
-Citation:
+## Citation
 ```
-@misc{yu2021plenoxels,
-      title={Plenoxels: Radiance Fields without Neural Networks}, 
-      author={{Alex Yu and Sara Fridovich-Keil} and Matthew Tancik and Qinhong Chen and Benjamin Recht and Angjoo Kanazawa},
-      year={2021},
-      eprint={2112.05131},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{yu_and_fridovichkeil2021plenoxels,
+      title={Plenoxels: Radiance Fields without Neural Networks},
+      author={{Sara Fridovich-Keil and Alex Yu} and Matthew Tancik and Qinhong Chen and Benjamin Recht and Angjoo Kanazawa},
+      year={2022},
+      booktitle={CVPR},
 }
 ```
+Note: joint first-authorship is not really supported in BibTex; you may need to modify the above if not using CVPR's format.
+
 ## Setup
 
 We recommend setup with a conda environment, using the packages provided in `requirements.txt`.
